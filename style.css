@@ -3,7 +3,7 @@ body {
     padding: 0;
     font-size: 20px;
     color: #141414;
-    background-color: #deeedc;
+    background-color: #ffffff;
     }
 .col{
     font-size: 22px;
@@ -80,7 +80,7 @@ body {
 
 .slider{
     width:1200px;
-    height: 500px;
+    height: 600px;
     border-radius: 10px;
     overflow: hidden;
     margin:0;
@@ -92,7 +92,7 @@ body {
 }
 .slides{
     width: 500%;
-    height: 500px;
+    height: 600px;
     display: flex;
 
 }
@@ -106,7 +106,7 @@ body {
 }
 .slide img{
     width: 1200px;
-    height: 500px;
+    height: 600px;
 
 }
 .navigation-manual{
@@ -158,7 +158,6 @@ body {
 .navigation-auto div:not(:last-child){
     margin-right: 40px;
 }
-
 #radio1:checked ~ .navigation-auto .auto-btn1{
     background: yellow;
 }
