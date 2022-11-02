@@ -67,7 +67,7 @@ body {
     align-items: center;
     margin-left: 0px;
     margin-top: 0%;
-    -ms-grid-row-align: center;
+    ms-grid-row-align: center;
 }
 .pnt{
     float: left;
@@ -146,7 +146,7 @@ body {
     display: flex;
     width: 1200px;
     justify-content: center;
-    margin-top: 460px;
+    margin-top: 560px;
 
 }
 .navigation-auto div{
@@ -170,5 +170,14 @@ body {
 #radio4:checked ~ .navigation-auto .auto-btn4{
     background: yellow;
 }
+.card {
+    overflow: hidden;
+    padding:0;
+    justify-content: :left;
+    align-items: :left;
+    margin-left: 0px;
+    margin-top: 0%;
+    ms-grid-row-align:left;
 
+}
 
